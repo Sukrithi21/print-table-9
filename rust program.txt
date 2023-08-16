@@ -1,0 +1,9 @@
+fn main() {
+    let number = 9;
+
+    println!("Table of {}: ", number);
+    for i in 1..=10 {
+        let result = number * i;
+        println!("{} x {} = {}", number, i, result);
+    }
+}
